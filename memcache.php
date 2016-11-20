@@ -26,5 +26,6 @@ if($get_result){
 }else {
 	echo "no data";
 }
-//½á¸öÊø
+//½áÊø
+
 
