@@ -9,6 +9,7 @@ $memcache->connect('localhost', 11211) or die ("Could not connect");
 $version = $memcache->getVersion();
 echo "Server's version: ".$version."<br/>\n";
 
+//对象方式保存数据
 $tmp_object = new stdClass;
 $tmp_object->str_attr = 'test';
 $tmp_object->int_attr = 123;
